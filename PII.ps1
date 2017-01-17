@@ -7,7 +7,6 @@ function Get-SSN
 {
 # This will search for Social Security Numbers
 Get-ChildItem  -rec | ?{ findstr.exe /mprc:. $_.FullName } | select-string "[0-9]{9}" , "[0-9]{3}[-| ][0-9]{2}[-| ][0-9]{4}"
-
 }
 
 function Get-CCards 
