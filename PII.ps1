@@ -1,3 +1,5 @@
+# This post script was written to search for sensitive information from compromised windows machines, intended for demonstrative purposes.
+
 function Get-SSN 
 {
 # This will search for Social Security Numbers
