@@ -1,4 +1,4 @@
-#The purpose of this script is to speed up the process of firewall change request writeups. 
+#The purpose of this script is to speed up the process of Juniper firewall change request writeups. 
 #Juniper does not allow ranges to be specified in the cli, so creating large groups that can't be CIDR addressed can be time consuming. 
 #Eg. “Please create a policy for dst-ips 192.168.0.1-192.168.0.33"
 
