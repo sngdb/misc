@@ -1,4 +1,4 @@
-# This post script was written to search for sensitive information from compromised windows machines, intended for demonstrative purposes.
+# This post script was written to search for sensitive information + PII from compromised windows machines, intended for demonstrative purposes.
 
 function Get-SSN 
 {
