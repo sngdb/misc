@@ -1,6 +1,5 @@
 #!/bin/bash
-# This script is a wrapper around the vulnscan.nse project to work more efficiently and have a more organized output. 
-# It was written to address limitations in the Kali OSCP labs - as mass vulnerability scanners are not allowed. Uses exploit-db.
+# This script is a wrapper around the vulnscan.nse project to work more efficiently and have a more organized output. Uses exploit-db.
 # http://www.computec.ch/projekte/vulscan/?
 # https://www.exploit-db.com/
 # This will be noisy, so pick your subnet carefully.
